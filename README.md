@@ -3,7 +3,6 @@
 This project is a demo version of the Netflix home page created using only HTML and CSS. The goal was to replicate the look and feel of the Netflix front page, with a focus on responsiveness and visual accuracy.
 
 ![Desktop Screenshot](screenshot.png)
-![Mobile Screenshot](mobile.png)
 
 ## Project Overview
 
