@@ -146,14 +146,21 @@
     align-items: flex-start;
     padding-top: 10px;
     transform: translateY(0);
+    position: fixed;
+    top: 60px;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 999;
   }
 
   .navbar-links.active {
+    display: flex;
     transform: translateY(0);
   }
 
   .hamburger {
     display: flex;
+    z-index: 1500;
   }
 
   .navbar-links li {
