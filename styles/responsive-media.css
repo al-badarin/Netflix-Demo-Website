@@ -145,10 +145,11 @@
     width: 100%;
     align-items: flex-start;
     padding-top: 10px;
+    transform: translateY(0);
   }
 
   .navbar-links.active {
-    display: flex;
+    transform: translateY(0);
   }
 
   .hamburger {

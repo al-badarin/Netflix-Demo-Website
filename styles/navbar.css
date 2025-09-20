@@ -7,13 +7,15 @@
   align-items: center;
   justify-content: space-between;
   width: auto;
-  z-index: 10; /* Ensure navbar is on top */
+  z-index: 2000; 
 }
 
 .navbar-links {
   list-style: none;
   display: flex;
   gap: 20px;
+  /* transition: transform 0.3s ease; 
+  transform: translateY(-200px);  */
 }
 
 .navbar-links li {
