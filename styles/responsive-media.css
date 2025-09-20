@@ -137,14 +137,31 @@
   }
 }
 
-/* Navbar Media Query */
-@media (max-width: 768px) {
-  .navbar ul {
+/* MEDIA QUERY for burger menu */
+@media (max-width: 900px) {
+  .navbar-links {
+    display: none;
     flex-direction: column;
+    width: 100%;
     align-items: flex-start;
+    padding-top: 10px;
   }
 
-  .navbar ul li {
-    margin-bottom: 10px;
+  .navbar-links.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .navbar-links li {
+    width: 100%;
+    padding: 10px 20px;
+  }
+
+  .navbar-links li a {
+    text-align: left;
+    width: 100%;
   }
 }
