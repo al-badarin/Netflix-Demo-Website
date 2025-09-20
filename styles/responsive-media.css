@@ -136,3 +136,15 @@
     padding: 0.8rem 0.9rem;
   }
 }
+
+/* Navbar Media Query */
+@media (max-width: 768px) {
+  .navbar ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar ul li {
+    margin-bottom: 10px;
+  }
+}
