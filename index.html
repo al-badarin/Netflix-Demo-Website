@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Meta tags for character set and viewport settings for responsiveness -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NETFLIX</title>
+
+    <!-- Link to the main CSS file -->
     <link rel="stylesheet" href="styles/site.css" />
   </head>
   <body>
+    <!-- Header section with logo and navbar -->
     <header class="header">
+      <!-- Netflix logo -->
       <img src="assets/netflix-logo.png" alt="logo" class="logo" />
 
+      <!-- Navigation bar with links and hamburger menu for mobile view -->
       <nav class="navbar">
+        <!-- Unordered list for navigation links -->
         <ul class="navbar-links">
           <li><a href="#">Home</a></li>
           <li><a href="#">TV Shows</a></li>
@@ -18,39 +25,47 @@
           <li><a href="#">New & Popular</a></li>
           <li><a href="#">My List</a></li>
         </ul>
-        
+
+        <!-- Hamburger menu icon for mobile view -->
         <div class="hamburger" id="hamburger">
           <span class="bar"></span>
           <span class="bar"></span>
           <span class="bar"></span>
         </div>
       </nav>
-
-      <!-- <button class="btn">Sign In</button> -->
     </header>
 
+    <!-- Main content of the website -->
     <main>
+      <!-- Hero section - main banner with background image and title -->
       <section id="hero">
         <img src="assets/bg.jpg" alt="background img" class="hero-bg" />
 
         <div class="wrapper">
+          <!-- Main title of the hero section -->
           <h1 class="title">Unlimited movies, TV shows, and more.</h1>
 
+          <!-- Subtitle of the hero section -->
           <h2 class="subtitle">Watch anywhere. Cancel anytime.</h2>
+
+          <!-- A secondary subtitle guiding the user to enter email -->
           <h2 class="subtitle">
             Ready to watch? Enter your email to create or restart your
             membership.
           </h2>
 
+          <!-- Form for users to enter their email and start their free trial -->
           <form action="#" class="form">
             <input type="text" placeholder="Email address" />
             <button class="btn">Try 30 days free</button>
           </form>
 
+          <!-- Description text -->
           <h3 class="desc">Only new members are eligible for this offer.</h3>
         </div>
       </section>
 
+      <!-- Enjoy TV section with a description and an image -->
       <section id="enjoy" class="content-section">
         <div class="wrapper">
           <div class="content">
@@ -61,10 +76,12 @@
             </p>
           </div>
 
+          <!-- Image for visual representation of enjoying Netflix on TV -->
           <img src="assets/enjoy-tv.png" alt="enjoy-tv" class="img" />
         </div>
       </section>
 
+      <!-- Download section where users can learn about offline viewing -->
       <section id="download" class="content-section">
         <div class="wrapper">
           <div class="content">
@@ -74,10 +91,12 @@
             </p>
           </div>
 
+          <!-- Image related to the download feature -->
           <img src="assets/shows.png" alt="show-img" class="img" />
         </div>
       </section>
 
+      <!-- Everywhere section explaining the flexibility of watching anywhere -->
       <section id="everywhere" class="content-section">
         <div class="wrapper">
           <div class="content">
@@ -88,6 +107,7 @@
             </p>
           </div>
 
+          <!-- Image showcasing devices to watch Netflix -->
           <img
             src="assets/watch-everywhere.png"
             alt="watch-everywhere"
@@ -96,10 +116,12 @@
         </div>
       </section>
 
+      <!-- FAQ section with common questions -->
       <section id="questions">
         <div class="wrapper">
           <h2 class="title">Frequently Asked Questions</h2>
 
+          <!-- List of frequently asked questions with collapsible answers (or plus sign) -->
           <ul class="questions-list">
             <li>
               <span class="question-desc">What is Netflix?</span>
@@ -129,6 +151,7 @@
         </div>
       </section>
 
+      <!-- Section prompting the user to enter email to start Netflix membership -->
       <section id="ready-to-watch">
         <div class="wrapper">
           <h2 class="subtitle">
@@ -136,6 +159,7 @@
             membership.
           </h2>
 
+          <!-- Form for email input to start Netflix membership -->
           <form action="#" class="form">
             <input type="text" placeholder="Email address" />
             <button class="btn">Try 30 days free</button>
@@ -144,9 +168,11 @@
       </section>
     </main>
 
+    <!-- Footer section with additional links and contact information -->
     <footer class="footer">
       <h2 class="footer-title">Questions? Contact us.</h2>
 
+      <!-- Footer list with useful links -->
       <ul class="footer-list">
         <li>FAQ</li>
         <li>Help Center</li>
@@ -165,16 +191,17 @@
         <li>Netflix Originals</li>
       </ul>
 
+      <!-- End of footer with the Netflix location (Bulgaria) -->
       <p class="footer-end-desc">Netflix Bulgaria</p>
     </footer>
 
+    <!-- JavaScript to toggle the burger menu visibility -->
     <script>
-      // JavaScript to toggle the burger menu
       document
         .getElementById('hamburger')
         .addEventListener('click', function () {
           const navLinks = document.querySelector('.navbar-links');
-          navLinks.classList.toggle('active');
+          navLinks.classList.toggle('active'); // Toggle the 'active' class to show/hide the menu
         });
     </script>
   </body>
