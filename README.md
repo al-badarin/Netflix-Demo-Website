@@ -8,7 +8,7 @@ This project is a demo version of the Netflix home page created using only HTML 
 
 The demo includes the following sections:
 
-- **Header:** Featuring the Netflix logo and a "Sign In" button.
+- **Header:** Featuring the Netflix logo and a responsive navbar
 - **Navbar:** Responsive navbar with a 'hamburger' feature button on small screens + dropdown menu.
 - **Hero Section:** Showcases the main call to action with a background image and a form for new users to enter their email.
 - **Content Sections:**
