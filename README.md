@@ -1,4 +1,4 @@
-# [Netflix Home Page Clone](https://n2tflix.netlify.app)
+# [Netflix Home Page Clone](https://movies-website-al-badarin.netlify.app/)
 
 This project is a demo version of the Netflix home page created using only HTML and CSS. The goal was to replicate the look and feel of the Netflix front page, with a focus on responsiveness and visual accuracy.
 
@@ -7,6 +7,7 @@ This project is a demo version of the Netflix home page created using only HTML 
 The demo includes the following sections:
 
 - **Header:** Featuring the Netflix logo and a "Sign In" button.
+<!-- todo: add the responive navbar  -->
 - **Hero Section:** Showcases the main call to action with a background image and a form for new users to enter their email.
 - **Content Sections:**
   - **Enjoy on your TV:** Describes the availability of Netflix on various platforms.
@@ -17,7 +18,7 @@ The demo includes the following sections:
 
 ## Live Demo
 
-Check out the live demo hosted on Netlify: [Netflix Clone Demo](https://n2tflix.netlify.app)
+Check out the live demo hosted on Netlify: [Netflix Clone Demo](https://movies-website-al-badarin.netlify.app/)
 
 ## Technologies Used
 
