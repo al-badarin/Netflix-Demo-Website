@@ -44,13 +44,13 @@ To view the project locally:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/netflix-clone.git
+   git clone https://github.com/yourusername/netflix-demo-website-clone.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd netflix-clone
+   cd netflix-demo-website-clone
    ```
 
 3. Open `index.html` in your web browser.
